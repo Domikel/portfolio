@@ -1,0 +1,14 @@
+
+
+.icon-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+i {
+  display: block;
+  width: 100%;
+  padding-bottom: 0.7rem;
+  color: white;
+  font-size: 2rem;
+}
