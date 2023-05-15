@@ -1,14 +1,14 @@
 import PageLayout from "../pageLayout/PageLayout.jsx";
 import PersonalImage from '../imgs/Personalfoto.png'
-
+import './Home.css'
 function HomePage() {
   const jsxLeft = (
     <>
       <span>&lt; Hi &gt;</span>
       <h1>
-        I'm <span class="m">M</span>iguel,
+        I'm <span className="m">M</span>iguel, 
       </h1>
-      <h2>Web Developer</h2>
+      <h2>FrontendDeveloper</h2>
       <button>
         <a href="/contact/contact.html">Let´s Work Together!</a>
       </button>
