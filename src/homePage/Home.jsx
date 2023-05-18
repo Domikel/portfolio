@@ -2,7 +2,7 @@ import PageLayout from "../pageLayout/PageLayout.jsx";
 import PersonalImage from '../imgs/Personalfoto.png'
 import './Home.css'
 function HomePage() {
-  const jsxLeft = (
+  const jsxLeftHome= (
     <>
       <span>&lt; Hi &gt;</span>
       <h1>
@@ -26,7 +26,7 @@ function HomePage() {
     </div>
   );
 
-  return <PageLayout left={jsxLeft} right={jsxRight}></PageLayout>;
+  return <PageLayout left={jsxLeftHome} right={jsxRight}></PageLayout>;
 }
 
 export default HomePage;

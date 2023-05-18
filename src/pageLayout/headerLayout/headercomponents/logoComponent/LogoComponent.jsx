@@ -1,9 +1,13 @@
 import './LogoComponent.css'
+import { Link } from 'react-router-dom';
+
+
+
 
 function Logo() {
   return (
     <div class="logo">
-      <a href="/index.html">M</a>
+      <Link to="/home" >M</Link>
       <p>
         frontend <br />
         developer
