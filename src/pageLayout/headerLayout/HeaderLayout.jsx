@@ -6,7 +6,10 @@ import './HeaderLayout.css';
 function HeaderLayout() {
   return (
     <div className="header-container">
-      <Logo />
+      <Logo             
+      
+      
+      />
       <NavBar />
       <SocialMedia />
     </div>
