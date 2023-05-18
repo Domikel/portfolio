@@ -1,23 +1,19 @@
-import HeaderLayout from "./headerLayout/HeaderLayout"
-import MainLayout from "./mainLayout/MainLayout"
-import './PageLayout.css'
+import HeaderLayout from './headerLayout/HeaderLayout';
+import MainLayout from './mainLayout/MainLayout';
+import './PageLayout.css';
 
+function PageLayout(props) {
+  return (
+    <div className="lay-out">
+      <HeaderLayout></HeaderLayout>
 
-function PageLayout(props){
-    return (
-      <div className="lay-out">
-        <HeaderLayout>
+      <MainLayout>
+        <div className="main-left">{props.left}</div>
 
-        </HeaderLayout>
-
-        <MainLayout>
-          <div className="main-left">{props.left}</div>
-
-          <div className="main-right">{props.right}</div>
-        </MainLayout>
-      </div>
-    );
+        <div className="main-right">{props.right}</div>
+      </MainLayout>
+    </div>
+  );
 }
 
-
-export default PageLayout
+export default PageLayout;
