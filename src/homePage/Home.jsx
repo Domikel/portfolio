@@ -1,10 +1,12 @@
 import PageLayout from "../pageLayout/PageLayout.jsx";
-import PersonalImage from '../imgs/Personalfoto.png'
+import PersonalImage from '../imgs/Personalfoto.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Home.css'
 function HomePage() {
   const jsxLeftHome= (
     <>
-      <span>&lt; Hi &gt;</span>
+    <FontAwesomeIcon icon={["fab", "github"]} style={{fontSize: '128px'}} />
+      <span>&lt; Hi &gt;</span> 
       <h1>
         I'm <span className="m">M</span>iguel, 
       </h1>

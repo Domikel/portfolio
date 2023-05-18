@@ -2,8 +2,13 @@
 import HomePage from '../src/homePage/Home.jsx';
 import AboutPage from './aboutPage/AboutPage.jsx';
 import {Routes,Route} from "react-router-dom"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 import './App.css';
+
+  library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
   return (
