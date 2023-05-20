@@ -1,4 +1,5 @@
 import PageLayout from "../pageLayout/PageLayout";
+import './AboutPage.css'
 
 function AboutPage() {
     const jsxLeftAbout = (
@@ -15,6 +16,7 @@ function AboutPage() {
             environment and facilitate exceptional customer experiences"</p>
 
     </>)
+   
 
 
 
