@@ -1,17 +1,8 @@
-import "./SocialMediaComponent.css"
-import React from "react";
-
-
+import './SocialMediaComponent.css';
+import React from 'react';
 
 function SocialMedia() {
-
-  
-  return (
-    <div class="icon-container">
-   
-   
-    </div>
-  );
+  return <div class="icon-container"></div>;
 }
 
 export default SocialMedia;
