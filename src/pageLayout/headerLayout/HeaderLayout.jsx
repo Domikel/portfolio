@@ -1,6 +1,5 @@
 import Logo from './headercomponents/logoComponent/LogoComponent.jsx';
 import NavBar from './headercomponents/navBarComponent/NavBarComponent.jsx';
-
 import SocialMedia from './headercomponents/socialMediaComponent/SocialMediaComponent.jsx';
 
 import './HeaderLayout.css';
@@ -11,6 +10,7 @@ function HeaderLayout() {
       <Logo />
       <NavBar />
       <SocialMedia />
+
     </div>
   );
 }

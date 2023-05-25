@@ -8,16 +8,17 @@ function NavBar() {
         <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <a href="/about/about.html">My Skills</a>
+      <NavLink to="/skills">Skills</NavLink>
       </li>
       <li>
-        <a href="/about/about.html">Work</a>
+      <NavLink to="/projects">Projects</NavLink>
+      </li>
+    
+      <li>
+      <NavLink to="/curriculum">Curriculum</NavLink>
       </li>
       <li>
-        <a href="/contact/contact.html">Contact</a>
-      </li>
-      <li>
-        <a href="/curriculum/curriculum.html">Curriculum</a>
+      <NavLink to="/contact">Contact</NavLink>
       </li>
     </ul>
   );
