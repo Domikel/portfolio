@@ -1,5 +1,6 @@
 {
   "name": "portfolio-react",
+  "homepage": "https://domikel.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "prettier:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,6 +51,7 @@
   "license": "ISC",
   "keywords": [],
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "2.8.8"
