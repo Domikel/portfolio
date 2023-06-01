@@ -1,0 +1,16 @@
+.main-curriculumRight {
+    position: relative;
+    right: 15rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Orbitron';
+}
+
+select {
+    font-size: 2rem;
+    text-align: center;
+    color: aqua;
+    background-color: rgb(29,29,29);
+    border: aqua solid 1px;
+}

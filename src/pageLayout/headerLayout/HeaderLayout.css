@@ -1,7 +1,7 @@
 /*  header*/
 .header-container {
   height: 100%;
-  width: 15%;
+  min-width: 120px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -19,5 +19,3 @@
     background-position: top right;
   }
 }
-
-

@@ -1,16 +1,18 @@
-import PageLayout from "../pageLayout/PageLayout.jsx";
-import PersonalImage from '../imgs/Personalfoto.png'
-import './Home.css'
+import PageLayout from '../pageLayout/PageLayout.jsx';
+import PersonalImage from '../imgs/3.png';
+import { Link } from 'react-router-dom';
+import './Home.css';
+
 function HomePage() {
-  const jsxLeftHome= (
+  const jsxLeftHome = (
     <>
-      <span>&lt; Hi &gt;</span>
+      <span>Hi,</span>
       <h1>
-        I'm <span className="m">M</span>iguel, 
+        I'm <span className="m">M</span>iguel,
       </h1>
-      <h2>FrontendDeveloper</h2>
+      <h2>Frontend/Developer</h2>
       <button>
-        <a href="/contact/contact.html">Let´s Work Together!</a>
+        <Link to="/contact/contact.html">Let´s Work Together!</Link>
       </button>
     </>
   );
@@ -18,9 +20,9 @@ function HomePage() {
   const jsxRight = (
     <div class="img-container">
       <img
-        src= {PersonalImage}
-        width="300px"
-        height="300px"
+        src={PersonalImage}
+        width="290px"
+        height="320px"
         alt="pesonal-foto"
       />
     </div>

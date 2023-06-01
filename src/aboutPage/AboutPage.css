@@ -1,0 +1,60 @@
+.main-AboutLeft {
+
+  display: flex;
+  flex: 1;
+  color: aqua;
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+
+}
+
+.about-text {
+
+  font-size: 3.9rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: aliceblue;
+
+}
+
+.me-from-about {
+  color: aqua;
+  writing-mode: horizontal-tb;
+  transform: rotate(180deg);
+  border: 2px solid white;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 3.5rem;
+  font-family: gogoia;
+  line-height: 0.8;
+  padding-top: 1rem;
+  vertical-align: baseline;
+}
+
+.main-AboutRight {
+  display: flex;
+  flex: 1;
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+}
+
+.img-AboutContainer {
+  margin-left: 1.5rem;
+  width: 300px;
+  height: 300px;
+  background-image: url('../imgs/raascopy.jpg');
+  background-repeat: no-repeat;
+  background-position: center right;
+  animation: movimiento 30s infinite linear;
+  border: rgb(207, 134, 6) solid 1px;
+
+
+}
+
+.img-about {
+  object-fit: cover;
+  display: inline-block;
+  position: relative;
+  top: 1.8rem;
+  left: 1.8rem
+}
