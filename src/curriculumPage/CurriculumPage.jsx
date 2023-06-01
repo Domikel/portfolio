@@ -43,7 +43,7 @@ function CurriculumPage() {
 
             <select value={selectedCv} onChange={HandlerCv}>
                 <option value="curriculum-en">Curriculum Vitae (En)</option>
-                <option value="lebenslauf">LebensLauf (De)</option>
+                <option value="lebenslauf">Lebenslauf (De)</option>
                 <option value="curricullum-es">Curriculum(Es) </option>
             </select>
 
