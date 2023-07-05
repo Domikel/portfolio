@@ -25,7 +25,6 @@ span {
   overflow: hidden;
   border: 2px rgb(129, 82, 7) solid;
   border-radius: 100%;
- 
 }
 
 img {
@@ -33,13 +32,18 @@ img {
   display: inline-block;
 }
 
-h1 {
-  font-size: 4rem;
-}
 
-.m {
-  font-size: 3.5rem;
-  font-size: 5rem;
+ .greeting{
+
+  font-size: 4rem;
+  color: rgb(193, 127, 35);
+}
+h1{font-size: 4rem;}
+
+
+.m-name-letter {
+  font-size:5rem;
+ 
   color: aqua;
 }
 
@@ -48,11 +52,16 @@ h2 {
   font-size: 4rem;
 }
 
+.letwork-a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Orbitron', sans-serif;
+}
+
 button {
   margin-top: 4rem;
   margin-bottom: 2rem;
   font-size: 2rem;
-  font-family: gogoia;
   background-color: #1d1d1d;
   padding: 1rem 3.3rem 1rem 3.3rem;
   border: 1px solid aqua;
@@ -62,6 +71,9 @@ button:hover {
   background-color: rgb(156, 104, 6);
 }
 
+
+
+/*---------------------------------------------------------------Media Queries---------------------------------*/
 @media screen and (max-width: 1059px) {
   body {
     height: 100%;
@@ -105,12 +117,8 @@ button:hover {
     width: 100%;
   }
 
-  .main-left {
-    width: 100%;
-  }
-  .main-right {
-    width: 100%;
-  }
+ 
+
 
   .img-container {
     width: 250px;

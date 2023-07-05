@@ -6,13 +6,15 @@ import './Home.css';
 function HomePage() {
   const jsxLeftHome = (
     <>
-      <span>Hi,</span>
+      
       <h1>
-        I'm <span className="m">M</span>iguel,
+      git 
+      <br />
+        I'm <span className="m-name-letter">M</span>iguel,
       </h1>
       <h2>Frontend/Developer</h2>
       <button>
-        <Link to="/contact/contact.html">Let´s Work Together!</Link>
+        <Link to="/contact/contact.html" className='letwork-a'>Let´s Work Together!</Link>
       </button>
     </>
   );

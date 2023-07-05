@@ -1,6 +1,6 @@
 /*  header*/
 .header-container {
-  height: 100%;
+  padding: 1rem;
   min-width: 120px;
   border-radius: 10px;
   display: flex;

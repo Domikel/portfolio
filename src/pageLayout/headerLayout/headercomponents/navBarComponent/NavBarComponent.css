@@ -1,7 +1,6 @@
-ul {
-  width: 100%;
-}
-li {
+.ul-items{ margin-top:1rem;}
+
+.li-items {
   margin: 0 auto;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
@@ -11,9 +10,10 @@ li {
   border-top: 1px solid white;
 }
 
-a {
-  font-family: gogoia;
-  font-size: 2rem;
+.li-items > a {
+  font-family:"orbitron";
+  letter-spacing:0.2px;
+  font-size: 1.3rem;
   font-weight: bold;
   width: 100%;
   color: white;

@@ -4,20 +4,20 @@ import { NavLink } from 'react-router-dom';
 function NavBar() {
   return (
     <ul className="ul-items">
-      <li>
+      <li className="li-items">
         <NavLink to="/about">About</NavLink>
       </li>
-      <li>
+      <li className="li-items">
       <NavLink to="/skills">Skills</NavLink>
       </li>
-      <li>
+      <li className="li-items">
       <NavLink to="/projects">Projects</NavLink>
       </li>
     
-      <li>
+      <li className="li-items">
       <NavLink to="/curriculum">Curriculum</NavLink>
       </li>
-      <li>
+      <li className="li-items">
       <NavLink to="/contact">Contact</NavLink>
       </li>
     </ul>
