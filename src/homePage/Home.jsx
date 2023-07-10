@@ -6,7 +6,7 @@ import './Home.css';
 function HomePage() {
   return (
     <PageLayout>
-      <div className="home-about-Left">
+      <div className="home-container-Left">
         <h1 className='greeting'>
           Hi<span className="greeting-exclamation"> !!</span>
           <br />
@@ -20,7 +20,7 @@ function HomePage() {
         </button>
       </div>
 
-      <div>
+     <div className='home-container-right'>
         <div class="img-container">
           <img
           className='personal-image-home'
@@ -29,7 +29,8 @@ function HomePage() {
             height="320px"
             alt="pesonal-foto"
           />
-        </div>
+      
+         </div>
       </div>
     </PageLayout>
   );

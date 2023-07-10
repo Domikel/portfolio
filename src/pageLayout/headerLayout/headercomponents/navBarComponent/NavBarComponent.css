@@ -13,7 +13,7 @@
 .li-items > a {
   font-family:"orbitron";
   letter-spacing:0.2px;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-weight: bold;
   width: 100%;
   color: white;
@@ -23,3 +23,22 @@
 .ul-items li a:hover {
   color: aqua;
 }
+
+
+@media screen and (max-width:800px) {
+  .ul-items{
+    height: 100%;
+  display: flex;
+}
+
+ 
+.li-items {
+  margin: 0 auto;
+  writing-mode:horizontal-tb;
+  transform: none;
+  list-style: none;
+  filter: blur(0.1);
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+}}
+

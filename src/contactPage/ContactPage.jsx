@@ -22,9 +22,8 @@ function ContactPage() {
     <div className='main-Contact-right'>
         <form className='form-contact'>
         <p className="p-contact">
-            I am very excited to hear about your projects and be part of your
-            team in do bridges between mind and code to optimize services
-            experiences.
+            I am very excited to hear about you projects and be part of your
+            team ! 
           </p>
 
        

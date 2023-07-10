@@ -5,3 +5,13 @@
  align-items: center;
  padding-left: 4rem;
 }
+
+@media screen and (max-width:800px) {
+  .container-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+  }}

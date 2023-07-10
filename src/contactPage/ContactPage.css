@@ -23,6 +23,7 @@
   padding: 0.5rem 0.2rem;
 }
 .map-container {
+ text-align: center;
   position: relative;
 }
 
@@ -40,6 +41,9 @@
   bottom: 75%;
   color: aqua;
   background-color: #1d1d1d;
+  border: #c07f23 1px solid;
+   background-color: #3b3a3a;
+   padding: 0.2rem;
 }
 
 .main-Contact-right {
