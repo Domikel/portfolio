@@ -4,33 +4,35 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 function HomePage() {
-  const jsxLeftHome = (
-    <>
-      
-      <h1>
-      git 
-      <br />
-        I'm <span className="m-name-letter">M</span>iguel,
-      </h1>
-      <h2>Frontend/Developer</h2>
-      <button>
-        <Link to="/contact/contact.html" className='letwork-a'>Let´s Work Together!</Link>
-      </button>
-    </>
-  );
+  return (
+    <PageLayout>
+      <div className="home-about-Left">
+        <h1 className='greeting'>
+          Hi<span className="greeting-exclamation"> !!</span>
+          <br />
+          I'm <span className="m-name-letter">M</span>iguel,
+        </h1>
+        <h2 className='profession-text'>Fullstack/Developer</h2>
+        <button className='home-button'>
+          <Link to="/contact" className="letwork-a">
+            Let´s Work Together!
+          </Link>
+        </button>
+      </div>
 
-  const jsxRight = (
-    <div class="img-container">
-      <img
-        src={PersonalImage}
-        width="290px"
-        height="320px"
-        alt="pesonal-foto"
-      />
-    </div>
+      <div>
+        <div class="img-container">
+          <img
+          className='personal-image-home'
+            src={PersonalImage}
+            width="290px"
+            height="320px"
+            alt="pesonal-foto"
+          />
+        </div>
+      </div>
+    </PageLayout>
   );
-
-  return <PageLayout left={jsxLeftHome} right={jsxRight}></PageLayout>;
 }
 
 export default HomePage;

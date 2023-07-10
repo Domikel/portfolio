@@ -1,42 +1,47 @@
-import './ContactPage.css'
-import PageLayout from '../pageLayout/PageLayout'
-import BerlinMap from '../imgs/1.png'
-
+import './ContactPage.css';
+import PageLayout from '../pageLayout/PageLayout';
+import BerlinMap from '../imgs/1.png';
 
 function ContactPage() {
-    const jsxLeftContact = (
-        <div className='main-ContactLeft'>
-            <h1 className="contactme">Contact <span className='me'>Me</span></h1>
+  return (
+    <PageLayout>
+    <div className='main-contact-left'>
+        <h1 className="contact-title">
+          Contact <span className="me-from-contact">Me</span>
+        </h1>
+        <div className='map-container'>
 
-            <form>
-                <p className="p-left">I am very excited to hear about your projects and be part of your team in do bridges between mind and code to optimize services experiences.</p>
-
-                <label htmlFor="name"></label>
-                <input type="text" id="name" placeholder="Your Name" />
-
-                <label htmlFor="email"></label>
-                <input type="email" name="email" id="email" placeholder="Your Email" />
-
-                <label htmlFor="subject"></label>
-                <input type="text" id="subject" placeholder="Subject" />
-
-                <textarea name="" id="" cols="77" rows="10" placeholder="Tell me more about you and your projects!"></textarea>
-
-                <button className='get-in-touch'>Get in Touch!</button>
-            </form>
+            <p className="mail">
+            im.mikel@hotmail.com</p>
+            <img src={BerlinMap} width="80%" alt="berlin-map" />
         </div>
-    )
+    </div>
+      
+      
 
-    const jsxRightContact= (
-    <div className="main-ContactRight">       
-        <h2 className='m-location'>M</h2>
-        <p className="mail">im.mikel@hotmail.com</p>
-        <div><img src={BerlinMap} width="90%"alt='berlin-map'/></div>
-    </div>)
+    <div className='main-Contact-right'>
+        <form className='form-contact'>
+        <p className="p-contact">
+            I am very excited to hear about your projects and be part of your
+            team in do bridges between mind and code to optimize services
+            experiences.
+          </p>
 
-    return (<PageLayout left={jsxLeftContact} right={jsxRightContact}></PageLayout>)
+       
+        <input className='contact-input' type="text" id="name" placeholder="Your Name" />
+        <input className='contact-input'type="email"name="email"id="email"placeholder="Your Email"/>
 
+        
+        <input  className='contact-input' type="text" id="subject" placeholder="Subject" />
+
+        <textarea  className="contact-textarea" name=""id="" cols="77" rows="10"placeholder="Tell me more about you and your projects!"></textarea>
+          <button className="get-in-touch-button">Get in Touch!</button>
+        </form>
+    </div>
+    
+    
+    </PageLayout>
+  );
 }
 
-
-export default ContactPage
+export default ContactPage;

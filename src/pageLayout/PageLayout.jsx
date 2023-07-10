@@ -8,9 +8,7 @@ function PageLayout(props) {
       <HeaderLayout></HeaderLayout>
 
       <MainLayout>
-        <div className="main-left">{props.left}</div>
-
-        <div className="main-right">{props.right}</div>
+      {props.children}
       </MainLayout>
     </div>
   );

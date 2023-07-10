@@ -1,20 +1,37 @@
-.main-left {
+.home-about-Left{
   font-weight: 600;
   font-family: 'Orbitron', sans-serif;
-  margin-left: 4rem;
   width: 50%;
+  color: rgb(110, 110, 110);
 }
-
-span {
+.greeting{
   font-size: 4rem;
 }
-.main-right {
-  width: 50%;
+
+.greeting-exclamation {
+  font-size: 4rem;
+  color: rgb(193, 127, 35);
 }
+.m-name-letter {
+  font-size: 5rem;
+  color: aqua;
+}
+
+.profession-text {
+  display: inline;
+  font-size: 4rem;
+}
+.letwork-a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
 
 .img-container {
   position: relative;
-  bottom: 9rem;
+  bottom: 13rem;
   right: 4rem;
   width: 300px;
   height: 300px;
@@ -27,43 +44,18 @@ span {
   border-radius: 100%;
 }
 
-img {
+.personal-image-home {
   object-fit: cover;
   display: inline-block;
 }
 
 
- .greeting{
-
-  font-size: 4rem;
-  color: rgb(193, 127, 35);
-}
-h1{font-size: 4rem;}
-
-
-.m-name-letter {
-  font-size:5rem;
- 
-  color: aqua;
-}
-
-h2 {
-  display: inline;
-  font-size: 4rem;
-}
-
-.letwork-a {
-  text-decoration: none;
-  color: aliceblue;
-  font-family: 'Orbitron', sans-serif;
-}
-
-button {
+.home-button {
   margin-top: 4rem;
   margin-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #1d1d1d;
-  padding: 1rem 3.3rem 1rem 3.3rem;
+  padding: 1rem 2rem 1rem 2rem;
   border: 1px solid aqua;
   color: aqua;
 }
@@ -71,71 +63,4 @@ button:hover {
   background-color: rgb(156, 104, 6);
 }
 
-
-
 /*---------------------------------------------------------------Media Queries---------------------------------*/
-@media screen and (max-width: 1059px) {
-  body {
-    height: 100%;
-    width: 100%;
-  }
-  h1,
-  h2,
-  span {
-    font-size: 4rem;
-  }
-  .big-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .flex-nav {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  .flex-nav li {
-    width: 100%;
-    writing-mode: horizontal-tb;
-    transform: rotate(0deg);
-    font-size: 3rem;
-  }
-  .flex-nav li a {
-    width: 100%;
-    font-size: 3rem;
-  }
-
-  .icon-container {
-    display: flex;
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .container-main {
-    height: 100%;
-    width: 100%;
-  }
-
- 
-
-
-  .img-container {
-    width: 250px;
-    height: 250px;
-    position: relative;
-    top: 4rem;
-    right: -1rem;
-  }
-  img {
-    object-fit: cover;
-    width: 250px;
-    height: 250px;
-  }
-}
-
-@media screen and (max-width: 626px) {
-  .main-right {
-    display: none;
-  }
-}

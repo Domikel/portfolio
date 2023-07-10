@@ -1,108 +1,93 @@
+.main-contact-left {
+  width: 40%;
+  display: flex;
+  flex: 1;
+}
 
-.main-Contactleft {
-    width: 100%;
-    display: flex;
-    color: aqua;
-    font-weight: 600;
-    font-family: "Orbitron", sans-serif;
-  }
-  
-  .contactme {
-    position: absolute;
-    font-size: 3.9rem;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    color: aliceblue;
-  }
-  .me {
-    color: aqua;
-    writing-mode: horizontal-tb;
-    transform: rotate(180deg);
-    border: 2px solid white;
-    display: inline-block;
-    padding: 0.5rem;
-    font-size: 3.5rem;
-    font-family: gogoia;
-    line-height: 0.8;
-    padding-top: 1rem;
-    vertical-align: baseline;
-  }
-  
-  .p-left {
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-    hyphens: auto;
-  }
-  
-  form {
-  width:80%;
-    position: relative;
-    left: 6rem;
-  }
-  
-  label,
-  input {
-    display: block;
-    padding: 0.5rem;
-    width: 100%;
-    font-size: 1.2rem;
-  }
-  input {
-    background-color: #3b3a3a;
-    border: none;
-  }
-  
-  textarea {
-    width: 100%;
-    background-color: #3b3a3a;
-    border: none;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-  }
-  .get-in-touch {
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-family: gogoia;
-    background-color: #1d1d1d;
-    padding: 1rem 3rem 1rem 3rem;
-    border: 1px solid aqua;
-    color: aqua;
-  }
+.contact-title {
+  font-size: 3rem;
+  color: aliceblue;
+  margin-bottom: 14rem;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  letter-spacing: 3px;
+}
+.me-from-contact {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: aqua;
+  writing-mode: horizontal-tb;
+  transform: rotate(180deg);
+  border: 2px solid white;
+  display: inline-block;
+  padding: 0.5rem 0.2rem;
+}
+.map-container {
+  position: relative;
+}
 
-  button:hover {
-    background-color: rgb(156, 104, 6);
-  }
-  
-  .main-ContactRight {
-    width: 100%;
-    display: flex;
-    position: relative;
-    top: 5rem;
-    font-weight: 600;
-    font-family: "Orbitron", sans-serif;
+.m-location {
+  color: #c07f23;
+  padding: 2px;
+  font-family: gogoia;
+  font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+}
 
-   
-  }
-  
-  .m-location {
-    position: absolute;
-    left: 39%;
-    bottom: 55%;
-    color: aqua;
-    font-family: gogoia;
-    font-size: 3rem;
-    border-radius: 100%;
-    background-color: #000000;
-    padding: 0.5rem;
-  }
-  
-  .mail {
-    position: absolute;
-    left: 48%;
-    bottom: 55%;
-    color: aqua;
-    background-color: #000000;
-    padding: 0.5rem;}
+.mail {
+  position: absolute;
+  left: 28%;
+  bottom: 75%;
+  color: aqua;
+  background-color: #1d1d1d;
+}
+
+.main-Contact-right {
+  width: 50%;
+  display: flex;
+  flex-direction: 1;
+}
+.form-contact {
+  width: 80%;
+}
+.p-contact{
+  text-align:center;
+  margin-bottom: 1rem;
+  color: #6e6e6e;
+}
+.contact-input{
+  font-size: arial;
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #3b3a3a;
+  border: none;
+}
+
+
+
+.contact-textarea {
+  width: 100%;
+  background-color: #3b3a3a;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 0.2rem;
+}
+.get-in-touch-button {
+  width: 100%;
+  display: inline-block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  background-color: #1d1d1d;
+  padding: 1rem 3rem 1rem 3rem;
+  border: 1px solid aqua;
+  color: aqua;
+}
+
+.get-in-touch-button:hover {
+
+  background-color: rgb(156, 104, 6);
+}

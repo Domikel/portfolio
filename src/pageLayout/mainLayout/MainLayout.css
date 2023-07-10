@@ -2,6 +2,6 @@
   width: 100%;
   display: flex;
   color: white;
-  margin-top: 4rem;
-  padding-top: 9rem;
+ align-items: center;
+ padding-left: 4rem;
 }
